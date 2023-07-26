@@ -1,1 +1,50 @@
+# Dependency directories
+/vendor/
+/node_modules/
+
+# Laravel-specific directories
+/bootstrap/
+/storage/
+/public/hot
+/public/storage
+/storage/*.key
+
+# Environment files
+/.env
+/.env.*
+.env.php
+
+# Editor and IDE specific files
+/.idea/
+/.vscode/
+*.code-workspace
+
+# Compiled and bundled files
+Homestead.json
+Homestead.yaml
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+yarn.lock
+
+# Logs and cache files
+/*.log
+composer.lock
+yarn.lock
+
+# Sensitive information
 .env
+
+# Uploaded files (assuming they are stored in storage/app/public)
+/public/storage/*
+!/public/storage/.gitkeep
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+# Maintenance mode file
+/public/maintenance.html
+
+# Compiled Blade templates (optional, based on project needs)
+/storage/framework/views/*.php
